@@ -43,7 +43,7 @@ TODO: UPDATE!
 ## Abstract
 
 There is a pressing demand for robust, high-order baseline schemes for conservation laws that minimize reliance on supplementary stabilization. 
-In this work, we respond to this demand by developing new baseline schemes within a nodal discontinuous Galerkin (DG) framework, utilizing upwind summation-by-parts (USBP) operators and flux vector splittings.  
+In this work, we respond to this demand by developing new baseline schemes within a nodal discontinuous Galerkin (DG) framework, utilizing upwind summation-by-parts (USBP) operators and flux vector splittings. 
 To this end, we demonstrate the existence of USBP operators on arbitrary grid points and provide a straightforward procedure for their construction. 
 Our method encompasses a broader class of USBP operators, not limited to equidistant grid points.
 This approach facilitates the development of novel USBP operators on Legendre--Gauss--Lobatto (LGL) points, which are suited for nodal discontinuous Galerkin (DG) methods. 
