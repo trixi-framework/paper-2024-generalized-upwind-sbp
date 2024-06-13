@@ -1,7 +1,7 @@
 # Generalized upwind summation-by-parts operators and their application to nodal discontinuous Galerkin methods
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10200102.svg)](https://doi.org/10.5281/zenodo.10200102)
+[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
 TODO: UPDATE! 
 
 This repository contains information and code to reproduce the results presented in the
@@ -9,14 +9,14 @@ article
 ```bibtex
 @online{glaubitz2024generalized,
 	title={Generalized upwind summation-by-parts operators and 
-  		their application to nodal discontinuous Galerkin methods},
+               their application to nodal discontinuous Galerkin methods},
   author={Glaubitz, Jan and Ranocha, Hendrik and 
-        Winters, Andrew Ross and Schlottke-Lakemper, Michael and 
-        {\"O}ffner, Philipp and Gassner, Gregor Josef},
+          Winters, Andrew Ross and Schlottke-Lakemper, Michael and 
+          {\"O}ffner, Philipp and Gassner, Gregor Josef},
   year={2024},
   month={06},
-  doi={10.48550/arXiv.2311.13888},
-  eprint={2311.13888},
+  doi={TODO},
+  eprint={TODO},
   eprinttype={arxiv},
   eprintclass={math.NA}
 }
@@ -28,14 +28,14 @@ use the implementations provided here, please **also** cite this repository as
 ```bibtex
 @misc{glaubitz2024generalizedRepro,
   title={Reproducibility repository for
-         “{G}eneralized upwind summation-by-parts operators and 
-  		their application to nodal discontinuous Galerkin methods"},
+         "{G}eneralized upwind summation-by-parts operators and 
+         their application to nodal discontinuous Galerkin methods"},
   author={Glaubitz, Jan and Ranocha, Hendrik and 
-        Winters, Andrew Ross and Schlottke-Lakemper, Michael and 
-        {\"O}ffner, Philipp and Gassner, Gregor Josef},
+          Winters, Andrew Ross and Schlottke-Lakemper, Michael and 
+          {\"O}ffner, Philipp and Gassner, Gregor Josef},
   year={2024},
   howpublished={\url{https://github.com/trixi-framework/paper-2024-generalized-upwind-sbp}},
-  doi={10.5281/zenodo.10200102}
+  doi={TODO}
 }
 ```
 TODO: UPDATE! 
