@@ -72,7 +72,7 @@ and the curvilinear mesh results were carried out using Julia 1.10.0.
 - [Jan Glaubitz](https://www.janglaubitz.com) (MIT, USA)
 - [Hendrik Ranocha](https://ranocha.de) (Johannes Gutenberg University Mainz, Germany)
 - [Andrew Winters](https://liu.se/en/employee/andwi94) (Linköping University, Sweden)
-- [Michael Schlottke-Lakemper](https://lakemper.eu) (RWTH Aachen University/University of Stuttgart, Germany)
+- [Michael Schlottke-Lakemper](https://www.uni-augsburg.de/fakultaet/mntf/math/prof/hpsc) (University of Augsburg, Germany)
 - [Philipp Öffner](https://philippoeffner.de) (TU Clausthal, Germany)
 - [Gregor J. Gassner](https://www.mi.uni-koeln.de/NumSim/gregor-gassner/) (University of Cologne, Germany)
 
