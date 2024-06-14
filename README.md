@@ -1,7 +1,7 @@
 # Generalized upwind summation-by-parts operators and their application to nodal discontinuous Galerkin methods
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11661786.svg)](https://doi.org/10.5281/zenodo.11661786)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11661785.svg)](https://doi.org/10.5281/zenodo.11661785)
 
 This repository contains information and code to reproduce the results presented in the
 article
@@ -33,7 +33,7 @@ use the implementations provided here, please **also** cite this repository as
           {\"O}ffner, Philipp and Gassner, Gregor Josef},
   year={2024},
   howpublished={\url{https://github.com/trixi-framework/paper-2024-generalized-upwind-sbp}},
-  doi={10.5281/zenodo.11661786}
+  doi={10.5281/zenodo.11661785}
 }
 ```
 
