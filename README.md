@@ -7,15 +7,14 @@ This repository contains information and code to reproduce the results presented
 article
 ```bibtex
 @online{glaubitz2024generalized,
-	title={Generalized upwind summation-by-parts operators and 
-               their application to nodal discontinuous Galerkin methods},
-  author={Glaubitz, Jan and Ranocha, Hendrik and 
-          Winters, Andrew Ross and Schlottke-Lakemper, Michael and 
-          {\"O}ffner, Philipp and Gassner, Gregor Josef},
+  title={Generalized upwind summation-by-parts operators and their
+         application to nodal discontinuous {G}alerkin methods},
+  author={Glaubitz, Jan and Ranocha, Hendrik and Winters, Andrew Ross and
+          Schlottke-Lakemper, Michael and {\"O}ffner, Philipp and
+          Gassner, Gregor Josef},
   year={2024},
   month={06},
-  doi={TODO},
-  eprint={TODO},
+  eprint={2406.14557},
   eprinttype={arxiv},
   eprintclass={math.NA}
 }
