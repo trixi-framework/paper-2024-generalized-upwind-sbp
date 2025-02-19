@@ -6,14 +6,18 @@
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-@online{glaubitz2024generalized,
+@article{glaubitz2025generalized,
   title={Generalized upwind summation-by-parts operators and their
          application to nodal discontinuous {G}alerkin methods},
   author={Glaubitz, Jan and Ranocha, Hendrik and Winters, Andrew Ross and
           Schlottke-Lakemper, Michael and {\"O}ffner, Philipp and
           Gassner, Gregor Josef},
-  year={2024},
-  month={06},
+  journal={Journal of Computational Physics},
+  volume={529},
+  pages={113841},
+  year={2025},
+  month={05},
+  doi={10.1016/j.jcp.2025.113841},
   eprint={2406.14557},
   eprinttype={arxiv},
   eprintclass={math.NA}
@@ -38,13 +42,30 @@ use the implementations provided here, please **also** cite this repository as
 
 ## Abstract
 
-There is a pressing demand for robust, high-order baseline schemes for conservation laws that minimize reliance on supplementary stabilization. 
-In this work, we respond to this demand by developing new baseline schemes within a nodal discontinuous Galerkin (DG) framework, utilizing upwind summation-by-parts (USBP) operators and flux vector splittings. 
-To this end, we demonstrate the existence of USBP operators on arbitrary grid points and provide a straightforward procedure for their construction. 
-Our method encompasses a broader class of USBP operators, not limited to equidistant grid points.
-This approach facilitates the development of novel USBP operators on Legendre--Gauss--Lobatto (LGL) points, which are suited for nodal discontinuous Galerkin (DG) methods. 
-The resulting DG-USBP operators combine the strengths of traditional summation-by-parts (SBP) schemes with the benefits of upwind discretizations, including inherent dissipation mechanisms. 
-Through numerical experiments, ranging from one-dimensional convergence tests to multi-dimensional curvilinear and under-resolved flow simulations, we find that DG-USBP operators, when integrated with flux vector splitting methods, foster more robust baseline schemes without excessive artificial dissipation.
+High-order numerical methods for conservation laws are highly sought after due to
+their potential efficiency. However, it is challenging to ensure their robustness,
+particularly for under-resolved flows. Baseline high-order methods often incorporate
+stabilization techniques that must be applied judiciously—sufficient to ensure
+simulation stability but restrained enough to prevent excessive dissipation and
+loss of resolution. Recent studies have demonstrated that combining upwind summation-by-parts (USBP)
+operators with flux vector splitting can increase the robustness of finite difference (FD)
+schemes without introducing excessive artificial dissipation. This work investigates whether
+the same approach can be applied to nodal discontinuous Galerkin (DG) methods. To this end,
+we demonstrate the existence of USBP operators on arbitrary grid points and provide
+a straightforward procedure for their construction. Our discussion encompasses a
+broad class of USBP operators, not limited to equidistant grid points, and enables
+the development of novel USBP operators on Legendre–Gauss–Lobatto (LGL) points that are
+well-suited for nodal DG methods. We then examine the robustness properties of the
+resulting DG-USBP methods for challenging examples of the compressible Euler equations,
+such as the Kelvin–Helmholtz instability. Similar to high-order FD-USBP schemes,
+we find that combining flux vector splitting techniques with DG-USBP operators
+does not lead to excessive artificial dissipation. Furthermore, we find that
+combining lower-order DG-USBP operators on three LGL points with flux vector splitting
+indeed increases the robustness of nodal DG methods. However, we also observe that
+higher-order USBP operators offer less improvement in robustness for DG methods
+compared to FD schemes. We provide evidence that this can be attributed to USBP methods
+adding dissipation only to unresolved modes, as FD schemes typically have more
+unresolved modes than nodal DG methods.
 
 
 ## Numerical experiments
